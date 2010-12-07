@@ -1,5 +1,5 @@
 " Font
-set guifont=Monaco:h10.00
+set guifont=Academy Engraved LET:h12.00
 
 " No audible bell
 set vb
