@@ -75,7 +75,8 @@ set expandtab
 set laststatus=2
 
 " \ is the leader character
-let mapleader = "\\"
+" let mapleader = "\\"
+let mapleader="\&"
 
 " Edit the README_FOR_APP (makes :R commands work)
 map <Leader>R :e doc/README_FOR_APP<CR>
@@ -186,3 +187,10 @@ nmap <C-K> <C-W><C-K>
 augroup md
 autocmd BufRead *.md  set ai formatoptions=tcroqn2 comments=n:&gt;
 augroup END
+
+" Move selection up/down (add =gv to reindent after move)
+:vmap <D-S-Up> :m-2<CR>gv
+:vmap <D-S-Down> :m'>+<CR>gv
+
+" Enable matchit
+runtime macros/matchit.vim
