@@ -100,6 +100,7 @@ map <Leader>sv :RSview
 map <Leader>su :RSunittest 
 map <Leader>sf :RSfunctionaltest 
 map <Leader>si :RSintegrationtest 
+map <Leader>rt :!rtags -R --vi<CR>
 
 " Hide search highlighting
 map <Leader>l :set invhls <CR>
@@ -194,3 +195,9 @@ augroup END
 
 " Enable matchit
 runtime macros/matchit.vim
+
+" Maps F1 to TagList
+map <F1> :TlistToggle<CR>
+
+"remove left and right vertical scrollbar
+set guioptions=
