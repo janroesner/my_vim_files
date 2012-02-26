@@ -34,6 +34,7 @@ if has("autocmd")
   " 'cindent' is on in C files, etc.
   " Also load indent files, to automatically do language-dependent indenting.
   filetype plugin indent on
+  filetype plugin on
 
   " Put these in an autocmd group, so that we can delete them easily.
   augroup vimrcEx
@@ -76,7 +77,7 @@ set laststatus=2
 
 " \ is the leader character
 " let mapleader = "\\"
-let mapleader="\&"
+let mapleader="\,"
 
 " Edit the README_FOR_APP (makes :R commands work)
 map <Leader>R :e doc/README_FOR_APP<CR>
@@ -120,8 +121,6 @@ cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 " Maps autocomplete to tab
 imap <Tab> <C-P>
 
-" Maps F2 to NerdTree toggle
-map <F2> :NERDTreeToggle<CR>
 
 " Maps fuzzyfinder on Alt-t
 map <C-T> :FufFile <CR>
@@ -178,7 +177,7 @@ set wildmode=list:longest,list:full
 set complete=.,t
 
 " Tags
-let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"
+" let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"
 
 " Window navigation
 nmap <C-J> <C-W><C-J>
@@ -196,8 +195,28 @@ augroup END
 " Enable matchit
 runtime macros/matchit.vim
 
-" Maps F1 to TagList
-map <F1> :TlistToggle<CR>
+" Maps F1 to NerdTree toggle
+map <F1> :NERDTreeToggle<CR>
+
+" Maps F3 to ConqueTerm z-shell
+map <F3> :ConqueTermSplit zsh<CR>
 
 "remove left and right vertical scrollbar
 set guioptions=
+
+" remap arrow keys to nothing :o)
+" nnoremap <up> <nop>
+" nnoremap <down> <nop>
+" nnoremap <left> <nop>
+" nnoremap <right> <nop>
+" inoremap <up> <nop>
+" inoremap <down> <nop>
+" inoremap <left> <nop>
+" inoremap <right> <nop>
+
+" TagBar
+" let g:tagbar_usearrows = 1
+" nnoremap <leader>l :TagbarToggle<CR>
+
+"custom macros
+let @d='orequire "ruby-debug";debuggeroa=1'
