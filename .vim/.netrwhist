@@ -1,11 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/janroesner/aastra'
-let g:netrw_dirhist_2='/Users/janroesner/railspotting'
-let g:netrw_dirhist_3='/Users/janroesner/book3'
-let g:netrw_dirhist_4='/Users/janroesner/dailydeal/rebirth'
-let g:netrw_dirhist_5='/Users/janroesner/dailydeal/rebirth/test'
-let g:netrw_dirhist_6='/Users/janroesner/ga_test/.git'
-let g:netrw_dirhist_7='/private/var/folders/0h/9wkks41942j0sxmnk4y4zd6r0000gn/T/project/.git'
-let g:netrw_dirhist_8='/Users/janroesner/dailydeal/prototypes/apidoc/output/stylesheets'
-let g:netrw_dirhist_9='/Users/janroesner/janroesner.github.com.fabric/.git'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Volumes/jan/kassomat/taxbird/libgeier'
+let g:netrw_dirhist_2='/Users/janroesner/.ssh'
+let g:netrw_dirhist_3='/Users/janroesner/.weinre'

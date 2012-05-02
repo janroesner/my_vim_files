@@ -79,6 +79,10 @@ set laststatus=2
 " let mapleader = "\\"
 let mapleader="\,"
 
+" let g:ctrlp_map = '<leader-p>'
+" map <Leader>p g:ctrlp_map
+map <Leader>p :CtrlPMixed <CR>
+
 " Edit the README_FOR_APP (makes :R commands work)
 map <Leader>R :e doc/README_FOR_APP<CR>
 
