@@ -15,3 +15,7 @@ set guioptions+=c
 if filereadable($HOME . "/.gvimrc.local")
   source ~/.gvimrc.local
 endif
+
+" My color settings
+set background=light
+colorscheme solarized

@@ -200,7 +200,7 @@ augroup END
 runtime macros/matchit.vim
 
 " Maps F1 to NerdTree toggle
-map <F1> :NERDTreeToggle<CR>
+" map <F1> :NERDTreeToggle<CR>
 
 " Maps F3 to ConqueTerm z-shell
 map <F3> :ConqueTermSplit zsh<CR>
@@ -242,3 +242,12 @@ endif
 
 " automatically read changed files
 set autoread
+
+" Ack integration
+noremap <Leader>a :Ack <cword><cr>
+
+" Remap nerdtree
+noremap <Leader>l :NERDTreeToggle <cr>
+
+" syntax highlighting for ejs files
+au BufNewFile,BufRead *.ejs set filetype=html
