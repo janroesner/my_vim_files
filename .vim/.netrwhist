@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Volumes/jan/kassomat/taxbird/libgeier'
 let g:netrw_dirhist_2='/Users/janroesner/.ssh'
 let g:netrw_dirhist_3='/Users/janroesner/.weinre'
+let g:netrw_dirhist_4='/Users/janroesner/.yeoman/cache/twitter/bootstrap/master'
+let g:netrw_dirhist_5='/Users/janroesner12/.vim'
+let g:netrw_dirhist_6='/Users/janroesner12/aastra'
+let g:netrw_dirhist_7='/Users/janroesner12/kassomat/companion/layout/companion/.sass-cache/3e1fc9a22ff273e9d99e599549fec35985f3fb4c'
+let g:netrw_dirhist_8='/Users/janroesner12/kassomat/mongoid'
