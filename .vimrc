@@ -166,6 +166,8 @@ endif
 " Color scheme
 " colorscheme default
 colorscheme railscasts3
+" set background=light
+" colorscheme solarized
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
@@ -251,3 +253,15 @@ noremap <Leader>l :NERDTreeToggle <cr>
 
 " syntax highlighting for ejs files
 au BufNewFile,BufRead *.ejs set filetype=html
+
+" syntax highlighting for hbs files
+au BufNewFile,BufRead *.hbs set filetype=html
+
+" syntax highlighting for god files
+au BufNewFile,BufRead *.god set filetype=ruby
+
+" syntax highlighting for bluepill files
+au BufNewFile,BufRead *.pill set filetype=ruby
+
+" syntax highlighting for capistrano recipies
+au BufNewFile,BufRead *.cap set filetype=ruby
