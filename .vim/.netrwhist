@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/janroesner12/viacom/mtv-germany-responsive/vendor/assets/javascripts/mediaplayer5'
+let g:netrw_dirhist_2='/Users/janroesner12/viacom/mtv-germany-responsive/vendor/assets/javascripts/mediaplayer5/.git'
+let g:netrw_dirhist_3='/Users/janroesner12/viacom/mtv-germany-responsive/vendor/assets/javascripts/mediaplayer5'
+let g:netrw_dirhist_4='/Users/janroesner12/seconds/build'
+let g:netrw_dirhist_5='/Users/janroesner12/.atom/packages/seti-syntax/stylesheets'
+let g:netrw_dirhist_6='/Users/janroesner12/schlumpf'
+let g:netrw_dirhist_7='/Users/janroesner12/viacom/mtv-germany-responsive/vendor/assets/shared/.git'
+let g:netrw_dirhist_8='/Users/janroesner12/aastra/public/compass/src'
+let g:netrw_dirhist_9='/Users/janroesner12/viacom/mtv-germany-responsive/config'
